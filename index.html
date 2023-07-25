@@ -37,55 +37,88 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        .font-ebgaramond {
+        .font-garamond {
             font-family: 'EB Garamond', serif;
         }
     </style>
 </head>
 
 <body>
-    <!-- header starts -->
-    <!-- navbar start -->
-    <nav class="container mx-auto">
-        <div class="navbar bg-base-100 px-[150px] pt-16">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </label>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home ></a></li>                    
-                        <li><a>Services ></a></li>                    
-                        <li><a>Cases ></a></li>                    
-                        <li><a>Blog ></a></li>                    
-                        <li><a>Contact Us ></a></li>>
+    <!-- header start -->
+    <header>
+        <!-- navbar start -->
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100 px-[150px] pt-16 pb-16">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home ></a></li>
+                            <li><a>Services ></a></li>
+                            <li><a>Cases ></a></li>
+                            <li><a>Blog ></a></li>
+                            <li><a>Contact Us ></a></li>>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/logo2.png" alt="">
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex flex-col font-poppins">
+                    <ul class="menu menu-horizontal px-1 text-[#707070]">
+                        <li><a>Home ></a></li>
+                        <li><a>Services ></a></li>
+                        <li><a>Cases ></a></li>
+                        <li><a>Blog ></a></li>
+                        <li><a>Contact Us ></a></li>
                     </ul>
                 </div>
-                <div>
-                    <img src="images/logo2.png" alt="">
-                <!-- <a class="normal-case text-4xl font-extrabold text-justice">Justice</a> -->
+                <div class="navbar-end">
+                    <a class="btn bg-justice-bg rounded-lg text-white font-semibold text-lg">Free Consultation</a>
                 </div>
             </div>
-            <div class="navbar-center hidden lg:flex font-poppins">
-                <ul class="menu menu-horizontal px-1 text-[#707070]">
-                    <li><a>Home ></a></li>                    
-                    <li><a>Services ></a></li>                    
-                    <li><a>Cases ></a></li>                    
-                    <li><a>Blog ></a></li>                    
-                    <li><a>Contact Us ></a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <a class="btn bg-justice-bg rounded-lg text-white font-semibold text-lg">Free Consultation</a>
+        </nav>
+        <!-- navbar end  -->
+
+        <!--  hero banner start  -->
+        <div class="container mx-auto px-[150px]">
+            <div class="hero"
+                style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-2xl">
+                        <h1 class="mb-6 text-7xl font-extrabold font-garamond">
+                            We Provide Effective <br>Legal Solutions</h1>
+                        <p class="mb-5 font-poppins">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>                        
+                    </div> 
+                </div>
+
+                <div class="mt-[20rem]">
+                    <form action="" class="pb-28 pt-28">
+                        <input type="text"
+                            class="text-black placeholder-slate-500 pl-5 pr-80 py-5 rounded-lg mr-3"
+                            placeholder="Search your services">
+                        <!-- <button type="submit"
+                            class="rounded-lg bg-justice-bg text-xl font-semibold text-white border-none py-4 px-10">Search</button> -->
+                            <input class="rounded-lg bg-justice-bg text-xl font-semibold text-white border-none py-4 px-10" type="button" value="Search">
+                    </form>
+                </div>
+
             </div>
         </div>
-    </nav>
-    <!-- header ends -->
+        <!--  hero banner end  -->
+    </header>
+    <!-- header end -->
+
+
 
 </body>
 
